@@ -4,3 +4,9 @@ declare module '*.vue' {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
+
+declare module 'vuejs-form' {
+  import form from 'vuejs-form'
+  export default form
+}
+
